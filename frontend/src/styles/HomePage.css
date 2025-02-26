@@ -1,0 +1,121 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  
+  .hero .cta-button {
+    background-color: white;
+    color: #007bff;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  .hero .cta-button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .feature-item {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-item i {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #e9ecef;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .testimonial-item {
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    width: 280px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-item p {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .testimonial-item h3 {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .footer a {
+    color: #b0c4de;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

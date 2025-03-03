@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Dashboard.css"; // Import the new CSS file
+import TransactionTable from "../components/TransactionTable";
 
 const Dashboard = () => {
   return (
@@ -9,7 +10,7 @@ const Dashboard = () => {
         <h2 className="logo">FraudShield</h2>
         <ul className="menu">
           <li className="active">Dashboard</li>
-          <li>Transactions</li>
+          <li>Transactions </li>
           <li>Fraud Alerts</li>
           <li>Settings</li>
         </ul>
@@ -52,6 +53,7 @@ const Dashboard = () => {
             </li>
           </ul>
         </section>
+        <TransactionTable />
       </main>
     </div>
   );
